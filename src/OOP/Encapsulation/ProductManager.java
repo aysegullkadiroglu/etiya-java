@@ -1,4 +1,4 @@
-package OOP;
+package OOP.Encapsulation;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,7 +7,7 @@ import java.util.List;
 public class ProductManager {
     private final List<Product> products;
 
-    public ProductManager(){
+    public ProductManager() {
         products = new ArrayList<Product>();
         products.add(new Product(1,"Laptop",25000,2));
         products.add(new Product(2,"Tablet",12000,5));
